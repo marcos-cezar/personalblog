@@ -25,15 +25,15 @@ pluralizelisttitles = false
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use.
-    github_url = "https://github.com"
+    github_url = "https://github.com/marcos-cezar"
     # gitlab_url = "https://gitlab.com"
-    linkedin_url = "https://linkedin.com"
-    twitter_url = "https://twitter.com"
+    linkedin_url = "https://www.linkedin.com/in/marcoscezar/"
+    twitter_url = "https://twitter.com/marcosanddev"
     # mastodon_url = "https://mastodon.social"
     # tryhackme_url = "https://tryhackme.com"
     # discord_url = "https://discord.com"
-    youtube_url = "https://youtube.com"
-    instagram_url = "https://instagram.com"
+    youtube_url = "https://www.youtube.com/channel/UCVHjUFMN8ceHmDV6n8iajuw"
+    instagram_url = "https://www.instagram.com/marcoscostametal/"
     # facebook_url = "https://facebook.com"
     # flickr_url = "https://flickr.com"
     # telegram_url = "https://telegram.org"
