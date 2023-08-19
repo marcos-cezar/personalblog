@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Marcos Costa Software Engineer</title>
+    <link>http://marcoscosta.dev/about/</link>
+    <description>Recent content in About on Marcos Costa Software Engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language><atom:link href="http://marcoscosta.dev/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://marcoscosta.dev/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://marcoscosta.dev/about/about/</guid>
+      <description>Sobre mim Sou apaixonado por tecnologia, gosto de cantar e amo jogos eletrônicos. O jogo que mais toma meu tempo é o xadrez. Já desenvolvi em diversos tipos de plataformas desde web, desktop e ultimamente mobile.</description>
+    </item>
+    
+  </channel>
+</rss>
