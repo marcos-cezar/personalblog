@@ -5,8 +5,6 @@ date: 2023-08-24
 draft: false
 ---
 
-# Hello World Android/Kotlin com C++
-
 Para conseguirmos rodar código C/C++ com Android podemos utilizar o NDK que é um conjunto de ferramentas usado para atingir esse objetivo. O NDK fornece bibliotecas para gerenciar atividades nativas e componentes físicos do dispositivo (sensores, dispositivos de toque, GPS e etc). Frequentemente o NDK é utilizado quando queremos mais performance e baixa latência. Ou quando queremos executar rotinas intensas do ponto de vista computacional como jogos ou simulação de física do mundo real. Ou reutilizar bibliotecas específicas do C/C++ ou suportar alguma biblioteca específica de um hardware específico que não tenha biblioteca em outra linguagem.
 
 A ideia deste pequeno exemplo é entender como funciona a integração entre um código Android com Kotlin e um código em C/C++. A ideia do projeto é uma tela simples com uma label e um botão (label do botão é ”mudar”). A label inicialmente com a mensagem “greetings from Kotlin” e ao clicar no botão vai fazer a chamada para o método do C/C++ chamado sayHello que vai pegar a sequência de caracteres “greetings from C/C++”. 
