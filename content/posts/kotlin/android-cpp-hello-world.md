@@ -69,15 +69,15 @@ Na classe MainActivity vamos carregar dinamicamente a biblioteca que vai ser o c
 ```kotlin
 class MainActivity : ComponenteActivity() {
 
-	companion object {
-		init {
-			System.loadLibrary("hello")
-		}
-	}
+    companion object {
+	    init {
+		    System.loadLibrary("hello")
+	    }
+    }
 
-  private external fun sayHello(): String
+    private external fun sayHello(): String
 
-	override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             SampleWithButtonTheme {
