@@ -54,7 +54,7 @@ fun Greeting(name: () -> String, modifier: Modifier = Modifier) {
 }
 ```
 
-Inicialmente pode comentar esse trecho, pois não vamos utilizá-lo ainda:
+Vamos remover esse trecho, pois não vamos utilizá-lo nesse exemplo:
 
 ```kotlin
 @Preview(showBackground = true)
