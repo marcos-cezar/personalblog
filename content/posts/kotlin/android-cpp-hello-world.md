@@ -96,7 +96,7 @@ class MainActivity : ComponenteActivity() {
 
 Agora vamos criar o nosso código em C/C++. Vamos criar um diretório na pasta dentro da raiz do projeto app/src/cpp. Dentro dessa pasta vamos colar o código:
 
-```C++
+```cpp
 #include <jni.h>
 
 extern "C" {
@@ -114,7 +114,7 @@ extern "C" {
 
 Em seguida vamos criar o arquivo CMakeLists.txt dentro da pasta app/. Nesse arquivo vamos configurar o caminho do arquivo cpp que criamos, indicar o nome da biblioteca e a versão mínima do CMake que vai ser utilizado.
 
-```shell
+```cmake
 cmake_minimum_required(VERSION 3.4.1)
 
 PROJECT(hello)
