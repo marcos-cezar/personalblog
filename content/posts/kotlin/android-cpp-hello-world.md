@@ -124,5 +124,37 @@ add_library(hello
             src/main/cpp/hello.cpp)
 ```
 
+Agora vamos abrir o arquivo build.gradle.kts que está na pasta app/src/ vamos adicionar as linhas que estão dentro do bloco android no bloco android do seu projeto:
+
+```kotlin
+
+    android {
+        defaultConfig {
+		    externalNativeBuild {
+                cmake {
+                    cppFlags("")
+                }
+            }
+		}
+
+
+		externalNativeBuild {
+            cmake {
+                path("CMakeLists.txt")
+                version = "3.10.2"
+            }
+        }
+
+		packaging {
+            resources {
+                excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            }
+        }
+        
+        ndkVersion = "26.0.10792818"
+		
+    }
+```
+
 Por fim, vamos executar. Se tudo correr bem devemos ver o aplicativo em execução e chaveando as chamadas entre o Kotlin e a função em C/C++.
 
