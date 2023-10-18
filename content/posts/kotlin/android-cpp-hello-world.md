@@ -124,7 +124,7 @@ add_library(hello
             src/main/cpp/hello.cpp)
 ```
 
-Agora vamos abrir o arquivo build.gradle.kts que está na pasta app/src/ vamos adicionar as linhas que estão dentro do bloco android no bloco android do seu projeto:
+Agora vamos abrir o arquivo build.gradle.kts que está na pasta app/src/ vamos adicionar as linhas que estão dentro do bloco android. Blocos que já existam no seu código por ex: defaultConfig, basta adicionar o comando interno. Não copie e cole esse código pois está incompleto. Observe as versões do CMake e do NDK instaladas no início e preencha conforme a versão instalada na sua máquina.
 
 ```kotlin
 
