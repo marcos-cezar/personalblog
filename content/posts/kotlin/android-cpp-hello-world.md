@@ -128,32 +128,32 @@ Agora vamos abrir o arquivo build.gradle.kts que está na pasta app/src/ vamos a
 
 ```kotlin
 
-    android {
-        defaultConfig {
-		    externalNativeBuild {
-                cmake {
-                    cppFlags("")
-                }
-            }
-		}
-
-
+android {
+    defaultConfig {
 		externalNativeBuild {
             cmake {
-                path("CMakeLists.txt")
-                version = "3.10.2"
+                cppFlags("")
             }
         }
+	}
 
-		packaging {
-            resources {
-                excludes += "/META-INF/{AL2.0,LGPL2.1}"
-            }
+
+	externalNativeBuild {
+        cmake {
+            path("CMakeLists.txt")
+            version = "3.10.2"
         }
-        
-        ndkVersion = "26.0.10792818"
-		
     }
+
+	packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+        
+    ndkVersion = "26.0.10792818"
+		
+}
 ```
 
 Por fim, vamos executar. Se tudo correr bem devemos ver o aplicativo em execução e chaveando as chamadas entre o Kotlin e a função em C/C++.
