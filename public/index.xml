@@ -2,28 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marcos Costa Software Engineer</title>
-    <link>http://marcoscosta.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Marcos Costa Software Engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 20 Nov 2022 09:03:20 -0800</lastBuildDate><atom:link href="http://marcoscosta.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estrutura de escolha when com enum</title>
+      <link>http://localhost:1313/posts/kotlin/kotlin-enum-when/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kotlin/kotlin-enum-when/</guid>
+      <description>&lt;p&gt;Para implementarmos pontos de múltipla escolha na estrutura do nosso código com Kotlin podemos utilizar a estrutura “when”. Para os programadores que vieram do Java ele tem um aspecto semelhante ao switch, porém mais poderoso.&lt;/p&gt;&#xA;&lt;p&gt;Nesse texto vamos ver o tipo Enum como declarar e utilizar, em seguida vamos ver a estrutura when e aprender a utilizá-la. No final, vamos concluir com um exemplo que vai unir os dois conceitos e assim você terá mais um recurso na sua “caixa de ferramentas” de programador Kotlin que é o que você deseja se tornar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World Android/Kotlin com C&#43;&#43;</title>
+      <link>http://localhost:1313/posts/kotlin/android-cpp-hello-world/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kotlin/android-cpp-hello-world/</guid>
+      <description>&lt;p&gt;Para conseguirmos rodar código C/C++ com Android podemos utilizar o NDK que é um conjunto de ferramentas usado para atingir esse objetivo. O NDK fornece bibliotecas para gerenciar atividades nativas e componentes físicos do dispositivo (sensores, dispositivos de toque, GPS e etc). Frequentemente o NDK é utilizado quando queremos mais performance e baixa latência. Ou quando queremos executar rotinas intensas do ponto de vista computacional como jogos ou simulação de física do mundo real. Ou reutilizar bibliotecas específicas do C/C++ ou suportar alguma biblioteca específica de um hardware específico que não tenha biblioteca em outra linguagem.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Configurando e gerenciando versões do Gradle no seu ambiente de desenvolvimento</title>
-      <link>http://marcoscosta.dev/posts/gradle/config-gradle/</link>
+      <link>http://localhost:1313/posts/gradle/config-gradle/</link>
       <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
-      
-      <guid>http://marcoscosta.dev/posts/gradle/config-gradle/</guid>
-      <description>Desenvolvedores Java que trabalham com o ecossistema Android, geralmente, passam por dificuldades na configuração do seu ambiente de desenvolvimento, muitos não o configuram apropriadamente e esperam que o Google traga um toolkit junto com a IDE em um pacote autocontido completo e funcional. Porém, você como um bom desenvolvedor que é, não deve esperar por isso. Este guia é indicado para usuários que trabalhem em ambiente Unix ou Unix like.</description>
+      <guid>http://localhost:1313/posts/gradle/config-gradle/</guid>
+      <description>&lt;p&gt;Desenvolvedores Java que trabalham com o ecossistema Android,&#xA;geralmente, passam por dificuldades na configuração do seu ambiente de&#xA;desenvolvimento, muitos não o configuram apropriadamente e esperam que&#xA;o Google traga um toolkit junto com a IDE em um pacote autocontido&#xA;completo e funcional. Porém, você como um bom desenvolvedor que&#xA;é, não deve esperar por isso. Este guia é indicado para usuários que trabalhem em ambiente Unix ou Unix like.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://marcoscosta.dev/about/about/</link>
+      <link>http://localhost:1313/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://marcoscosta.dev/about/about/</guid>
-      <description>Sobre mim Sou apaixonado por tecnologia, gosto de cantar e amo jogos eletrônicos. O jogo que mais toma meu tempo é o xadrez. Já desenvolvi em diversos tipos de plataformas desde web, desktop e ultimamente mobile.</description>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;sobre-mim&#34;&gt;Sobre mim&lt;/h1&gt;&#xA;&lt;p&gt;Sou apaixonado por tecnologia, gosto de cantar e amo jogos eletrônicos. O jogo&#xA;que mais toma meu tempo é o xadrez. Já desenvolvi em diversos tipos de&#xA;plataformas desde web, desktop e ultimamente mobile.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
