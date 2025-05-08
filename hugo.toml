@@ -2,7 +2,7 @@ baseURL = 'https://marcoscosta.netlify.app'
 languageCode = 'pt-BR'
 title = 'Marcos Costa Software Engineer'
 theme = 'poison'
-paginate = 10
+pagination.pagerSize = 10
 
 pluralizelisttitles = false
 
